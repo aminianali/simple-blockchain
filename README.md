@@ -2,7 +2,7 @@
 
 This project is simple blockchain without cryptography in it.
 for simplicity this application does not have validation for data inputs. 
-it just shows block chain functionality. 
+it just shows blockchain functionality. 
 This implementation is in Node.js.
 
 ### Install the Dependencies
