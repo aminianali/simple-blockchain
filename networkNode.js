@@ -217,7 +217,13 @@ app.get('/address/:address', (req, res) => {
     const address = req.body.address;
     const addressData = bitcoin.getAddressData(address);
     res.json({
-       addressData
+        addressData
+    });
+});
+
+app.get('/register', (req, res) => {
+    res.json({
+        address: uuid().split('-').join('')
     });
 });
 
